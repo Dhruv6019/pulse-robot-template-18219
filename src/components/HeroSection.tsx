@@ -25,16 +25,16 @@ const HeroSection = () => {
 
           {/* Main Headline */}
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-display font-bold text-foreground mb-6 animate-fade-in stagger-1">
-            Vote for Your
+            Vote in Our
             <br />
             <span className="text-transparent bg-gradient-to-r from-pulse-500 to-pulse-600 bg-clip-text">
-              Favorite Framework
+              Developer Polls
             </span>
           </h1>
 
           {/* Subtitle */}
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto animate-fade-in stagger-2">
-            Join thousands of developers in our real-time poll. Cast your vote and watch the results update instantly with beautiful charts.
+            Join thousands of developers across multiple polls. Cast your votes and watch real-time results with beautiful charts.
           </p>
 
           {/* CTA Buttons */}
@@ -78,8 +78,8 @@ const HeroSection = () => {
               <div className="flex items-center justify-center w-16 h-16 bg-pulse-100 rounded-full mx-auto mb-4">
                 <TrendingUp className="w-8 h-8 text-pulse-600" />
               </div>
-              <div className="text-3xl font-bold text-foreground mb-2">4</div>
-              <div className="text-muted-foreground">Frameworks</div>
+              <div className="text-3xl font-bold text-foreground mb-2">3</div>
+              <div className="text-muted-foreground">Poll Categories</div>
             </div>
           </div>
         </div>
