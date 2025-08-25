@@ -93,13 +93,13 @@ const PollCard = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-pulse-50 to-pulse-100 p-4">
+    <section className="section-container bg-gradient-to-br from-pulse-50 to-pulse-100" id="poll">
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-8">
-          <h1 className="text-4xl md:text-5xl font-display font-bold text-foreground mb-4">
+          <h2 className="section-title text-foreground mb-4">
             Developer Poll 2024
-          </h1>
-          <p className="text-lg text-muted-foreground mb-6">
+          </h2>
+          <p className="section-subtitle mx-auto">
             What's your favorite frontend framework? Cast your vote and see real-time results!
           </p>
           <div className="flex items-center justify-center gap-4 text-sm text-muted-foreground">
@@ -194,7 +194,7 @@ const PollCard = () => {
           </CardContent>
         </Card>
       </div>
-    </div>
+    </section>
   );
 };
 
