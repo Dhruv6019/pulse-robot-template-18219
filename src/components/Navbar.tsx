@@ -64,7 +64,7 @@ const Navbar = () => {
         {/* Desktop Navigation */}
         <nav className="hidden md:flex space-x-8">
           <a 
-            href="/" 
+            href="/frontend-poll" 
             className="nav-link"
           >
             Frontend Poll
@@ -90,7 +90,7 @@ const Navbar = () => {
       )}>
         <nav className="flex flex-col space-y-8 items-center mt-8">
           <a 
-            href="/" 
+            href="/frontend-poll" 
             className="text-xl font-medium py-3 px-6 w-full text-center rounded-lg hover:bg-gray-100" 
             onClick={() => {
               setIsMenuOpen(false);

@@ -4,6 +4,7 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
+import FrontendPollPage from "./pages/FrontendPollPage";
 import BackendPollPage from "./pages/BackendPollPage";
 import DevToolsPollPage from "./pages/DevToolsPollPage";
 import NotFound from "./pages/NotFound";
@@ -18,6 +19,7 @@ const App = () => (
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index />} />
+          <Route path="/frontend-poll" element={<FrontendPollPage />} />
           <Route path="/backend-poll" element={<BackendPollPage />} />
           <Route path="/devtools-poll" element={<DevToolsPollPage />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
